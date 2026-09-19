@@ -11,6 +11,8 @@ public class RandomNummber {
             arr[i] = random.nextInt(100);
         }
 
+        System.out.println(arr); // array is object so ,it prints the object reference so we use tostring
         System.out.println(Arrays.toString(arr));
+        System.out.println(arr[3]); // printing  array at particular index
     }
 }
